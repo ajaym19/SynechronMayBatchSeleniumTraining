@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-13T12:41:00 IST" name="Default suite" finished-at="2023-04-13T12:41:01 IST" duration-ms="785">
+    <groups>
+    </groups>
+    <test started-at="2023-04-13T12:41:00 IST" name="Default test" finished-at="2023-04-13T12:41:01 IST" duration-ms="785">
+      <class name="testcases.DataProviderDemo">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testcases.DataProviderDemo@15aab8c6]" started-at="2023-04-13T12:41:00 IST" name="login" data-provider="getData" finished-at="2023-04-13T12:41:00 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testcases.DataProviderDemo@15aab8c6]" started-at="2023-04-13T12:41:00 IST" name="login" data-provider="getData" finished-at="2023-04-13T12:41:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testcases.DataProviderDemo@15aab8c6]" started-at="2023-04-13T12:41:00 IST" name="login" data-provider="getData" finished-at="2023-04-13T12:41:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[finance]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[finance123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="validateLoginDataUsingExcel(java.lang.String,java.lang.String)[pri:0, instance:testcases.DataProviderDemo@15aab8c6]" started-at="2023-04-13T12:41:01 IST" name="validateLoginDataUsingExcel" data-provider="GetUserData" finished-at="2023-04-13T12:41:01 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginDataUsingExcel -->
+        <test-method signature="validateLoginDataUsingExcel(java.lang.String,java.lang.String)[pri:0, instance:testcases.DataProviderDemo@15aab8c6]" started-at="2023-04-13T12:41:01 IST" name="validateLoginDataUsingExcel" data-provider="GetUserData" finished-at="2023-04-13T12:41:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginDataUsingExcel -->
+        <test-method signature="validateLoginDataUsingExcel(java.lang.String,java.lang.String)[pri:0, instance:testcases.DataProviderDemo@15aab8c6]" started-at="2023-04-13T12:41:01 IST" name="validateLoginDataUsingExcel" data-provider="GetUserData" finished-at="2023-04-13T12:41:01 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[finance]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[finance123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginDataUsingExcel -->
+      </class> <!-- testcases.DataProviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
